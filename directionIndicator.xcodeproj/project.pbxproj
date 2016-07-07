@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3280CD5B1CD87D75003527EE /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3280CD591CD87D75003527EE /* left.png */; };
-		3280CD5C1CD87D75003527EE /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3280CD5A1CD87D75003527EE /* right.png */; };
 		328289871CD87A7500BC0430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328289861CD87A7500BC0430 /* AppDelegate.swift */; };
 		328289891CD87A7500BC0430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328289881CD87A7500BC0430 /* ViewController.swift */; };
 		3282898C1CD87A7500BC0430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3282898A1CD87A7500BC0430 /* Main.storyboard */; };
 		3282898E1CD87A7500BC0430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3282898D1CD87A7500BC0430 /* Assets.xcassets */; };
 		328289911CD87A7500BC0430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3282898F1CD87A7500BC0430 /* LaunchScreen.storyboard */; };
+		32D834341D2E9EEE00FF05A8 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D834321D2E9EEE00FF05A8 /* left.png */; };
+		32D834351D2E9EEE00FF05A8 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D834331D2E9EEE00FF05A8 /* right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3280CD591CD87D75003527EE /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left.png; path = ../../left.png; sourceTree = "<group>"; };
-		3280CD5A1CD87D75003527EE /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right.png; path = ../../right.png; sourceTree = "<group>"; };
 		328289831CD87A7500BC0430 /* directionIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = directionIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		328289861CD87A7500BC0430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		328289881CD87A7500BC0430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +24,8 @@
 		3282898D1CD87A7500BC0430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		328289901CD87A7500BC0430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		328289921CD87A7500BC0430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D834321D2E9EEE00FF05A8 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		32D834331D2E9EEE00FF05A8 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		328289851CD87A7500BC0430 /* directionIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				3280CD591CD87D75003527EE /* left.png */,
-				3280CD5A1CD87D75003527EE /* right.png */,
+				32D834321D2E9EEE00FF05A8 /* left.png */,
+				32D834331D2E9EEE00FF05A8 /* right.png */,
 				328289861CD87A7500BC0430 /* AppDelegate.swift */,
 				328289881CD87A7500BC0430 /* ViewController.swift */,
 				3282898A1CD87A7500BC0430 /* Main.storyboard */,
@@ -128,10 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3280CD5C1CD87D75003527EE /* right.png in Resources */,
+				32D834351D2E9EEE00FF05A8 /* right.png in Resources */,
 				328289911CD87A7500BC0430 /* LaunchScreen.storyboard in Resources */,
 				3282898E1CD87A7500BC0430 /* Assets.xcassets in Resources */,
-				3280CD5B1CD87D75003527EE /* left.png in Resources */,
+				32D834341D2E9EEE00FF05A8 /* left.png in Resources */,
 				3282898C1CD87A7500BC0430 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
